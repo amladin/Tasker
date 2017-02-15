@@ -39,6 +39,14 @@ body {
     color:white;
 }
 
+.ibox-content {
+    background-color: #37474F;
+}
+
+.info-element, .warning-element, .success-element, .danger-element {
+    background-color: #546E7A !important;
+}
+
 .footer {
     background-color: #37474F !important;
 }
