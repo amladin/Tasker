@@ -1,0 +1,41 @@
+/*****************************************
+Material Design - Dark Blue + Cyan accent
+
+Cyan accent: #00B8D4
+
+Dark Blue colors:
+
+50      #ECEFF1
+100     #CFD8DC
+200     #B0BEC5
+300     #90A4AE
+400     #78909C
+500     #607D8B
+600     #546E7A
+700     #455A64
+800     #37474F
+900     #263238
+*****************************************/
+
+.bg-400 {
+    background-color: #78909C;
+    color:white;
+}
+
+.md-skin .navbar-fixed-top {
+    background-color: #37474F !important;
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #607D8B;
+    border-color: #00B8D4;
+}
+
+.btn-primary:hover {
+    background-color: #00B8D4;
+}
+
+.btn-primary:active {
+    background-color: #00B8D4;
+}
