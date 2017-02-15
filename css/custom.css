@@ -25,9 +25,33 @@ Blue Gray colors:
 
 /*Main page CSS*/
 
+
+
 body {
     background-color: #37474F !important;
     color: white;
+}
+
+#taskName {
+    background-color: #78909C;
+    color: white;
+    border-color: #0091EA;
+}
+
+#taskName::-webkit-input-placeholder {
+    color: #37474F;
+}
+#taskName:-moz-placeholder {
+    /* FF 4-18 */
+    color: #37474F;
+}
+#taskName::-moz-placeholder {
+    /* FF 19+ */
+    color: #37474F;
+}
+#taskName:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #37474F;
 }
 
 .nav > li.active {
@@ -80,6 +104,26 @@ body {
 .md-skin .nav > li.active {
     background-color: #0091EA;
     color: white;
+}
+
+.btn-sm,
+.btn-sm:focus,
+.btn-sm:active,
+.btn-sm.active,
+.btn-sm:active:focus,
+.btn-sm.active:focus {
+    background-color: #455A64;
+    color:white;
+}
+
+.btn-xs {
+    background-color: #455A64;
+    color:white;
+}
+
+.btn-sm:hover {
+    background-color:#0091EA;
+    color:white;
 }
 
 .btn-primary {
