@@ -1,9 +1,9 @@
 /*****************************************
-Material Design - Dark Blue + Cyan accent
+Material Design - Blue Gray + Blue accent
 
-Cyan accent: #00B8D4
+Blue accent: #0091EA
 
-Dark Blue colors:
+Blue Gray colors:
 
 50      #ECEFF1
 100     #CFD8DC
@@ -17,9 +17,35 @@ Dark Blue colors:
 900     #263238
 *****************************************/
 
+/*Pace Recoloring*/
+
+.pace .pace-progress {
+    background-color: #0091EA;
+}
+
+/*Main page CSS*/
+
+body {
+    background-color: #37474F !important;
+    color: white;
+}
+
+.nav > li.active {
+    border-color: #CFD8DC;
+}
+
 .bg-400 {
     background-color: #78909C;
     color:white;
+}
+
+.footer {
+    background-color: #37474F !important;
+}
+
+.md-skin .navbar-static-side {
+    background-color: #455A64 !important;
+    color: rgba(255,255,255,0.85);
 }
 
 .md-skin .navbar-fixed-top {
@@ -27,15 +53,41 @@ Dark Blue colors:
     color: #ffffff;
 }
 
+.md-skin .nav > li > a {
+    color: rgba(255,255,255,0.7);
+}
+
+.md-skin .nav > li > a:hover {
+    color: white !important;
+}
+
+.md-skin .nav > li:hover {
+    background-color: #546E7A;
+}
+
+.md-skin .nav > li.active > a {
+    color:white;
+}
+
+.md-skin .nav > li.active {
+    background-color: #0091EA;
+    color: white;
+}
+
 .btn-primary {
     background-color: #607D8B;
-    border-color: #00B8D4;
+    border-color: #0091EA;
 }
 
-.btn-primary:hover {
-    background-color: #00B8D4;
-}
-
-.btn-primary:active {
-    background-color: #00B8D4;
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.btn-primary.active:focus {
+    background-color: #0091EA;
+    border-color: #0091EA;
 }
